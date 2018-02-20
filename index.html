@@ -23,7 +23,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-  <link rel="stylesheet" href="demo/css/custom.css">
+  <link rel="stylesheet" href="examples/demo/css/custom.css">
 
 </head>
 
@@ -37,12 +37,8 @@
       <h2>Zooming</h2>
 
       <div class="value-img">
-        <img 
-          src="demo/img/journey_start_thumbnail.jpg" 
-          data-action="zoom" 
-          data-original="demo/img/journey_start.jpg" 
-          alt="journey_start_thumbnail"
-        />
+        <img src="examples/demo/img/journey_start_thumbnail.jpg" id="img-journey" data-action="zoom" data-original="examples/demo/img/journey_start.jpg"
+          alt="journey_start_thumbnail" />
       </div>
     </section>
 
@@ -57,14 +53,14 @@
       </ul>
 
       <div class="value-img">
-        <a href="demo/img/journey.jpg">
-          <img src="demo/img/journey_thumbnail.jpg"
-          id="img-custom"
-          alt="journey_thumbnail" />
+        <a href="examples/demo/img/journey.jpg">
+          <img src="examples/demo/img/journey_thumbnail.jpg" id="img-custom" alt="journey_thumbnail" />
         </a>
       </div>
 
-      <p><small>Options below were designed to affect the second image only.</small></p>
+      <p>
+        <small>Options below were designed to affect the second image only.</small>
+      </p>
 
       <div class="row">
         <a class="button" id="btn-fast" onclick="fast()">faster</a>
@@ -77,10 +73,9 @@
       <br>
 
       <p>
-        <em>Faced with rolling sand dunes, age-old ruins, caves and howling winds,
-          your passage will not be an easy one. The goal is to get to the mountaintop,
-          but the experience is discovering who you are, what this place is,
-          and what is your purpose.</em>
+        <em>Faced with rolling sand dunes, age-old ruins, caves and howling winds, your passage will not be an easy one. The
+          goal is to get to the mountaintop, but the experience is discovering who you are, what this place is, and what
+          is your purpose.</em>
       </p>
 
       <br>
@@ -102,7 +97,7 @@
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="build/zooming.js"></script>
-  <script src="demo/js/custom.js"></script>
+  <script src="examples/demo/js/custom.js"></script>
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
